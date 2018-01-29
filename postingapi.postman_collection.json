@@ -1,0 +1,236 @@
+{
+	"id": "2aa7762e-2185-9acd-e087-40786cfaf344",
+	"name": "postingapi",
+	"description": "",
+	"order": [
+		"7f161179-26fb-c9c3-532f-8d789b4f7834",
+		"f76e551b-9a06-0708-0874-bdc5608dbd24",
+		"9a8a33e8-4559-0df3-5c12-f4cd2bae1d4a",
+		"9eae635d-19c5-68c8-937e-292e098463ed",
+		"cca63f00-0846-3846-58a7-be7823ce275c",
+		"171e2d88-2cd5-4d00-65a7-82d52920ace0",
+		"74178b36-29b5-016e-9e31-5deb1a98c2c0"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1516923777539,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "171e2d88-2cd5-4d00-65a7-82d52920ace0",
+			"headers": "Authorization: Bearer eyJpdiI6IkZPWWFrVmRUazVFTVh2UkFiRHZxbHc9PSIsInZhbHVlIjoiKzlQa2dMQURab3dRXC85enY4dHA0dUdGajRHRHl1dzFlVFR4eGxEZXpoTmE5T2ZaXC9MVGJoQ2ljTFwvSWxteEdMcCIsIm1hYyI6IjQ3MzJlNDhjNjhjZjkxNDk1MmZkOTliOTc4Y2JkOGVlMDg4MDM2OTlkMmFhODUzMDFjNmM1MDRiMDZlZDNjOTQifQ==\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJpdiI6IkZPWWFrVmRUazVFTVh2UkFiRHZxbHc9PSIsInZhbHVlIjoiKzlQa2dMQURab3dRXC85enY4dHA0dUdGajRHRHl1dzFlVFR4eGxEZXpoTmE5T2ZaXC9MVGJoQ2ljTFwvSWxteEdMcCIsIm1hYyI6IjQ3MzJlNDhjNjhjZjkxNDk1MmZkOTliOTc4Y2JkOGVlMDg4MDM2OTlkMmFhODUzMDFjNmM1MDRiMDZlZDNjOTQifQ==",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8000/api/v1/posts/3/users/3/comments",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1517195095052,
+			"name": "http://localhost:8000/api/v1/posts/3/users/3/comments",
+			"description": "",
+			"collectionId": "2aa7762e-2185-9acd-e087-40786cfaf344",
+			"responses": []
+		},
+		{
+			"id": "74178b36-29b5-016e-9e31-5deb1a98c2c0",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8000/api/v1/users/1/notifications",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1517195198912,
+			"name": "http://localhost:8000/api/v1/users/3/notifications",
+			"description": "",
+			"collectionId": "2aa7762e-2185-9acd-e087-40786cfaf344",
+			"responses": []
+		},
+		{
+			"id": "7f161179-26fb-c9c3-532f-8d789b4f7834",
+			"headers": "pageSize: 10\ncurrentPage: 0\n",
+			"headerData": [
+				{
+					"key": "pageSize",
+					"value": "10",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "currentPage",
+					"value": "0",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8000/api/v1/posts/3/comments",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1517191236531,
+			"name": "http://localhost:8000/api/v1/posts/3/comments",
+			"description": "",
+			"collectionId": "2aa7762e-2185-9acd-e087-40786cfaf344",
+			"responses": []
+		},
+		{
+			"id": "9a8a33e8-4559-0df3-5c12-f4cd2bae1d4a",
+			"headers": "pageSize: 10\ncurrentPage: 0\n",
+			"headerData": [
+				{
+					"key": "pageSize",
+					"value": "10",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "currentPage",
+					"value": "0",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8000/api/v1/users/2/comments",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "2aa7762e-2185-9acd-e087-40786cfaf344",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://localhost:8000/api/v1/users/2/comments",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1517191290159,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "9eae635d-19c5-68c8-937e-292e098463ed",
+			"headers": "username: user1\npassword: Pass@word1\n",
+			"headerData": [
+				{
+					"key": "username",
+					"value": "user1",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "Pass@word1",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8000/api/v1/tokens",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "2aa7762e-2185-9acd-e087-40786cfaf344",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://localhost:8000/api/v1/tokens",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1517193769422,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "cca63f00-0846-3846-58a7-be7823ce275c",
+			"headers": "Authorization: Bearer eyJpdiI6IkZPWWFrVmRUazVFTVh2UkFiRHZxbHc9PSIsInZhbHVlIjoiKzlQa2dMQURab3dRXC85enY4dHA0dUdGajRHRHl1dzFlVFR4eGxEZXpoTmE5T2ZaXC9MVGJoQ2ljTFwvSWxteEdMcCIsIm1hYyI6IjQ3MzJlNDhjNjhjZjkxNDk1MmZkOTliOTc4Y2JkOGVlMDg4MDM2OTlkMmFhODUzMDFjNmM1MDRiMDZlZDNjOTQifQ==\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJpdiI6IkZPWWFrVmRUazVFTVh2UkFiRHZxbHc9PSIsInZhbHVlIjoiKzlQa2dMQURab3dRXC85enY4dHA0dUdGajRHRHl1dzFlVFR4eGxEZXpoTmE5T2ZaXC9MVGJoQ2ljTFwvSWxteEdMcCIsIm1hYyI6IjQ3MzJlNDhjNjhjZjkxNDk1MmZkOTliOTc4Y2JkOGVlMDg4MDM2OTlkMmFhODUzMDFjNmM1MDRiMDZlZDNjOTQifQ==",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8000/api/v1/comments/11",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "2aa7762e-2185-9acd-e087-40786cfaf344",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://localhost:8000/api/v1/comments/11",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1517194650473,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "f76e551b-9a06-0708-0874-bdc5608dbd24",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8000/api/v1/posts/3/comments",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1517191246753,
+			"name": "http://localhost:8000/api/v1/posts/3/comments",
+			"description": "",
+			"collectionId": "2aa7762e-2185-9acd-e087-40786cfaf344",
+			"responses": [],
+			"rawModeData": "{\n\t\"fromuserid\": 2,\n\t\"postid\": 3,\n\t\"description\": \"Comment 1\",\n\t\"highlight\": true,\n\t\"coins\": 100\n}"
+		}
+	]
+}
